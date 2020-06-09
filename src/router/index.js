@@ -400,6 +400,11 @@ export const asyncRouterMap = [{
     component: _import('parkConfig/examineList/index'),
     name: '审核人员列表',
     authority: 'parkConfig'
+  }, {
+    path: 'accountList',
+    component: _import('parkConfig/accountList/index'),
+    name: '企业账户列表',
+    authority: 'parkConfig'
   }]
 },
 {
